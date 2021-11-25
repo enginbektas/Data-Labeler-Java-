@@ -1,0 +1,19 @@
+  {
+  "users":[
+  {"user id":1,"user name":"RandomLabelingMechanism1","user type":"RandomBot", "dataset ids": [1 ,2], "consistency check probability" : 0.6, "password" : ""},
+  {"user id":2,"user name":"RandomLabelingMechanism2","user type":"NewMechanism","dataset ids": [1 ,2], "consistency check probability" : 0.5, "password" : ""},
+    {"user id":3,"user name":"hasan","user type":"human","dataset ids": [1 ,2], "consistency check probability" : 0.5, "password" : "hasan"},
+  {"user id":4,"user name":"MachineLearningLabelingMechanism","user type":"MachineLearningBot","dataset ids": [4 ,3], "consistency check probability" : 0.5, "password" : ""},
+    {"user id":5,"user name":"engin","user type":"human","dataset ids": [1 ,2], "consistency check probability" : 0.5, "password" : "engin"}
+  ],
+
+  "datasets":[
+    {"dataset id":1,"dataset name":"dataset1","path":"Inputs/CES3063F20_LabelingProject_Input-1.json"},
+    {"dataset id":2,"dataset name":"dataset2","path":"Inputs/CES3063F20_LabelingProject_Input-2.json"}
+  ],
+
+    "current dataset id": 1
+
+}
+
+
